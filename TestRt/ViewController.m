@@ -16,6 +16,7 @@
 #import "TestIC.h"
 #import "TestWWI.h"
 #import "TestAR.h"
+#import "TestSendMsg.h"
 
 #define LOGBOOL(A) NSLog(@"%@",A?@"YES":@"NO");
 
@@ -40,8 +41,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-    
+        
 //    NSLog(@"%s",class_getName([NSObject class]));
     
 //    NSLog(@"%s",class_getName(class_getSuperclass([NSObject class])));
@@ -356,11 +356,11 @@
 //    BOOL D = [[NSMutableArray alloc] isKindOfClass:[NSArray class]];
 //    NSLog(@"C:%@ ,D:%@",C?@"YES":@"NO", D?@"YES":@"NO");
     
-    TestAR *ar = [[TestAR alloc] init];
-    [ar checkValue];
+//    TestAR *ar = [[TestAR alloc] init];
+//    [ar checkValue];
     
+    TestSendMsg *msg = [[TestSendMsg alloc] init];
 }
-
 
 //void setMusicTitle(id self, SEL _cmd, NSString *newTitle)
 //{

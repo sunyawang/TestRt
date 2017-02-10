@@ -18,6 +18,7 @@
 		1E6AE06C1D7D507200506D0B /* Son.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6AE06B1D7D507200506D0B /* Son.m */; };
 		1E6AE06F1D7E612700506D0B /* Music.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6AE06E1D7E612700506D0B /* Music.m */; };
 		1E6AE0721D81484A00506D0B /* TestIC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6AE0711D81484A00506D0B /* TestIC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1EBBCA9D1E497416002C41E8 /* TestSendMsg.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBBCA9C1E497416002C41E8 /* TestSendMsg.m */; };
 		1EC2EFCB1E0A181900A9E6E3 /* TestAR.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC2EFCA1E0A181900A9E6E3 /* TestAR.m */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,8 @@
 		1E6AE06E1D7E612700506D0B /* Music.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Music.m; sourceTree = "<group>"; };
 		1E6AE0701D81484A00506D0B /* TestIC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestIC.h; sourceTree = "<group>"; };
 		1E6AE0711D81484A00506D0B /* TestIC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestIC.m; sourceTree = "<group>"; };
+		1EBBCA9B1E497416002C41E8 /* TestSendMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSendMsg.h; sourceTree = "<group>"; };
+		1EBBCA9C1E497416002C41E8 /* TestSendMsg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSendMsg.m; sourceTree = "<group>"; };
 		1EC2EFC91E0A181900A9E6E3 /* TestAR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestAR.h; sourceTree = "<group>"; };
 		1EC2EFCA1E0A181900A9E6E3 /* TestAR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestAR.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,6 +89,8 @@
 				1E6AE0711D81484A00506D0B /* TestIC.m */,
 				1EC2EFC91E0A181900A9E6E3 /* TestAR.h */,
 				1EC2EFCA1E0A181900A9E6E3 /* TestAR.m */,
+				1EBBCA9B1E497416002C41E8 /* TestSendMsg.h */,
+				1EBBCA9C1E497416002C41E8 /* TestSendMsg.m */,
 				1E1281971D781175002EC4B1 /* Person.h */,
 				1E1281981D781175002EC4B1 /* Person.m */,
 				1E6AE06A1D7D507200506D0B /* Son.h */,
@@ -140,6 +145,7 @@
 				TargetAttributes = {
 					1E12817C1D7555DB002EC4B1 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 88434H77AV;
 					};
 				};
 			};
@@ -182,6 +188,7 @@
 				1E1281881D7555DB002EC4B1 /* ViewController.m in Sources */,
 				1E6AE06C1D7D507200506D0B /* Son.m in Sources */,
 				1E1281851D7555DB002EC4B1 /* AppDelegate.m in Sources */,
+				1EBBCA9D1E497416002C41E8 /* TestSendMsg.m in Sources */,
 				1EC2EFCB1E0A181900A9E6E3 /* TestAR.m in Sources */,
 				1E2A4D4D1D83B5040092FD63 /* TestWWI.m in Sources */,
 				1E6AE06F1D7E612700506D0B /* Music.m in Sources */,
@@ -301,7 +308,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 88434H77AV;
 				INFOPLIST_FILE = TestRt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-1.TestRt";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -312,7 +321,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 88434H77AV;
 				INFOPLIST_FILE = TestRt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-1.TestRt";
 				PRODUCT_NAME = "$(TARGET_NAME)";
