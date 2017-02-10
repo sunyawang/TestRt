@@ -359,7 +359,7 @@
 //    TestAR *ar = [[TestAR alloc] init];
 //    [ar checkValue];
     
-    TestSendMsg *msg = [[TestSendMsg alloc] init];
+//    TestSendMsg *msg = [[TestSendMsg alloc] init];
 }
 
 //void setMusicTitle(id self, SEL _cmd, NSString *newTitle)
